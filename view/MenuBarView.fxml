@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="20.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.view.MenuBarController">
+   <children>
+      <ButtonBar layoutX="642.0" layoutY="2.0" prefHeight="25.0" prefWidth="336.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="1.0">
+        <buttons>
+            <Button fx:id="tableButton" focusTraversable="false" minWidth="0.0" mnemonicParsing="false" onAction="#handleTableButton" prefHeight="25.0" style="-fx-background-radius: 12;" text="Панель таблицы" />
+            <Button fx:id="adminButton" focusTraversable="false" minWidth="27.0" mnemonicParsing="false" onAction="#handleAdminButton" prefHeight="25.0" style="-fx-background-radius: 12;" text="Панель Администратора" />
+        </buttons>
+      </ButtonBar>
+      <Button fx:id="logoutButton" focusTraversable="false" layoutX="698.0" layoutY="4.0" minWidth="27.0" mnemonicParsing="false" onAction="#handleLogoutButton" prefHeight="25.0" style="-fx-background-radius: 12;" text="Log Out" AnchorPane.bottomAnchor="1.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="1.0" />
+   </children>
+</AnchorPane>
